@@ -1,0 +1,130 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+#container__body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    flex: 1;
+}
+
+
+.perfil__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto);
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.espaco__branco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--branco);
+    width: 85%;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px 20px 100px 100px;
+}
+
+.perfil__info{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__perfil__info{
+    background-color: var(--branco);
+    padding: 10px;
+    font-size: 1.2rem;
+    color: var(--vermelho);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.caixa__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--branco);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    width: 350px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.caixa__info i.icone{
+    color: var(--vermelho);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    margin-left: 10px;
+}
+
+.caixa__info i.span{
+    color: var(--branco);
+    text-shadow: none;
+}
+
+.perfil__texto{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#perfil__texto__email{
+    font-size: 1.2rem;
+}
+
+.caixa__info p{
+    color: var(--vermelho);
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    margin-top: 15px;
+}
+
+.btn__perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--amarelo);
+    color: var(--preto);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 350px;
+    height: 45px;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.btn__perfil:hover{
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.3);
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    color: var(--preto);
+}

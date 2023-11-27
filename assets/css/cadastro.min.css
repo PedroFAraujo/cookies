@@ -1,0 +1,117 @@
+@import url(variaveis-cores-fonte.min.css);
+
+#container__body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainTitle{
+    color: var(--vermelho);
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa__input{
+    font-family: sans-serif;
+    margin: 1em 0 1em 0;
+    width: 650px;
+    position: relative;
+  }
+  
+  .caixa__input input {
+    font-size: 100%;
+    padding: 0.8em;
+    outline: none;
+    border: 2px solid var(--preto);
+    background-color: var(--branco);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+.btn__cadastrar{
+    border: none;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205);
+    border-radius: 15px;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1.2rem;
+}
+
+.btn__cadastrar:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+}
+
+
+@media only screen and (max-width:800px) {
+    .mainTitle{
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .mainTitle{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .caixa__input {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width:510px) {
+    .mainTitle{
+        margin-top: 20%;
+    }
+
+    .caixa__input {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .titulo{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:310px) {
+    .caixa__input{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:270px) {
+    .caixa__input{
+        width: 220px;
+    }
+}

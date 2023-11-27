@@ -1,0 +1,24 @@
+:root{
+
+    --branco: #F4F7F5;
+    --preto: #1C1C1C;
+    --amarelo: #FFC857;
+    --vermelho: #DB162F;
+    --background: #e6e6e6;
+    
+}
+
+@font-face {
+    font-family: fast-hand;
+    src: local(fast-hand), url(../fonte/fast-hand.otf);
+ }
+
+body{
+    background-color: var(--background);
+}
+
+@media only screen and (max-width: 900px){
+    main{
+        margin-top: 140px;
+    }
+} 
