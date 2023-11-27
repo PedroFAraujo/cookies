@@ -128,3 +128,17 @@ main{
     transition-duration: 0.5s;
     color: var(--preto);
 }
+
+@media only screen and (max-width:500px){
+    .espaco__branco{
+        width: 79%;
+    }
+
+    .perfil__main{
+        width: 300px !important;
+    }
+
+    .caixa__info, .btn__perfil{
+        width: 250px;
+    }
+}
